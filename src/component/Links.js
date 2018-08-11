@@ -13,7 +13,7 @@ const Links=(props)=>{
 <div>
         <div className='addpost'>
         <ul className='header'>
-        <li className='AddNewPost'><NavLink exact activeStyle ={{color:'orange'}} to="/" ></NavLink></li>
+        <li className='AddNewPost'><NavLink exact activeStyle ={{color:'orange'}} to="/" >All Posts</NavLink></li>
         <li className='AddNewPost'><NavLink exact activeStyle ={{color:'orange'}} to="/AddNewPost" >AddNewPost</NavLink></li>
         <li className='Posts'><NavLink exact activeStyle ={{color:'orange'}} to="/Posts"></NavLink></li> 
         <li className='DisplayPost'><NavLink exact activeStyle ={{color:'orange'}} to="/Home"></NavLink></li> 
