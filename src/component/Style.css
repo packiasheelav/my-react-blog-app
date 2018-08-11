@@ -1,5 +1,5 @@
 html,body{
-    background-color:rgb(239, 243, 239);
+    background-color:rgb(195, 195, 208);
 }
 .display_posts{
     display:grid;
@@ -10,7 +10,7 @@ html,body{
     border:2px solid gray;
     margin:10px 75px 10px 75px;
     margin-top:15px;
-    background-color:wheat;
+    background-color:rgb(195, 195, 208);
 }
 .homePage{
     text-align:center;
@@ -53,6 +53,7 @@ margin:10px;
 }
 .labelBox{
   padding:10px;
+  width:100px;
 }
 .inputBoxes{
     padding:10px;
@@ -61,6 +62,10 @@ margin:10px;
   padding:20px;
   margin:10px;
    
+}
+.selectPost{
+    background-color: rgb(195, 195, 208);
+
 }
 .selectPost :hover{
     background-color: rgb(240, 231, 231);
